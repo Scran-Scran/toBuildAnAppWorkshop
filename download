@@ -1,0 +1,4 @@
+node_modules/
+data/games.json
+data/games.db
+.DS_Store

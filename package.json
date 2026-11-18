@@ -1,0 +1,24 @@
+{
+  "name": "game-logger-workshop",
+  "version": "1.0.0",
+  "description": "Workshop: build a video game logger by filling in the missing functions.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "test:1": "node --test tests/step1-read.test.js",
+    "test:2": "node --test tests/step2-create.test.js",
+    "test:3": "node --test tests/step3-update.test.js",
+    "test:4": "node --test tests/step4-delete.test.js",
+    "test:5": "node --test tests/step5-bonus.test.js",
+    "progress": "node scripts/progress.js",
+    "reset": "node scripts/reset.js",
+    "check-solutions": "node scripts/check-solutions.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
